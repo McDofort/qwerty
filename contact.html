@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8>">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">Jordani w. DOFORT</div>
+            <nav class="nav">
+                <a href="index.html">Acceuil</a> |
+                <a href="apropos.html">À propos</a> |
+                <a href="projet.html">projets</a>  |
+                <a href="comptences.html">Compétences</a> |
+                <a href="contact.html" class="active"> Contact </a>
+                 
+            </nav>
+        </header>
+
+        <main>
+            <H2>Contactez-nous</H2>
+            <p>N'hesitez pas à me contacter 
+                si vous avez des projets de conception de <strong> sites web</strong> </p>
+            
+            <form onsubmit="envoyerFormulaire()"> <input type="text" id="nom" placeholder="Nom" required>
+                <input type="text" id="prenom" placeholder="Prénom" required>
+                <input type="text" id="sujet" placeholder="Sujet" required>
+                <button type="submit">Envoyer</button>
+            </form>
+        </main>
+        <script src="JS/script.js"></script>
+    </body>
+</html>
